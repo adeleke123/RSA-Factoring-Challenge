@@ -42,4 +42,4 @@ def factors(filename):
             result = factory(n)
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
