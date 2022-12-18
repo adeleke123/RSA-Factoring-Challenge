@@ -42,14 +42,4 @@ def factors(filename):
             result = factory(n)
 
 
-if __name__ == "__main__":
-"""
-This code defines a function factors that takes in a file name and reads the numbers from the file one by one. For each number, it calls the factory function to find the first two factors of the number and print them out. The factory function first checks if the number is even and, if it is, prints out the number divided by 2 as the first factor and 2 as the second factor. If the number is odd, the function calculates the square root of the number and checks if it is an integer. If it is, it prints out the square root as the first factor and the number divided by the square root as the second factor. If the square root is not an integer, the function iterates over a range of odd integers starting at 3 and ending at the square root plus 1, and checks if any of these integers are factors of the number. If it finds a factor that is prime, it prints out the factorization and returns. If no prime factor is found, the function does not output anything.
-
-The code also defines a function is_prime that takes in a number and returns True if the number is prime and False if it is not. It does this by checking if the number is divisible by any odd integers between 3 and the square root of the number, inclusive. If the number is divisible by any of these integers, the function returns False. If the number is not divisible by any of these integers, the function returns True.
-
-Finally, the code has an if statement that checks if the script is being run as the main module. If it is, the factors function is called with the command line argument passed to the script as the file name.
-
-This code will read the numbers from a given file and print out the first two factors of each number, if they exist. If a number does not have any prime factors, the function does not output anything. The code will terminate if it runs for more than 5 seconds.
-
-"""
+if __name__ == "__main__"
